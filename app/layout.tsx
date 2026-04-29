@@ -11,9 +11,12 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Field Manual — Hasan Consulting Group",
+  title: {
+    default: "Hasan Consulting Group",
+    template: "%s — Hasan Consulting Group",
+  },
   description:
-    "Internal · Cold Prospect Conversion Playbook. Confidential. Distribution restricted.",
+    "Strategic allocation planning for high-net-worth households. Pure fiduciary advice. No products. No AUM.",
 };
 
 export default function RootLayout({

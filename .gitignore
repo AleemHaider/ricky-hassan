@@ -32,3 +32,6 @@ WhatsApp Image*.jpg
 
 # Vercel
 .vercel
+
+# Claude Code
+.claude/

@@ -1,13 +1,20 @@
-import { TopNav } from "@/components/TopNav";
+import type { Metadata } from "next";
+import { TopNav } from "@/components/client/TopNav";
 import {
   SectionAnchor,
   PullQuote,
-} from "@/components/SectionAnchor";
-import { BigNumber, CompareRow } from "@/components/BigNumber";
+} from "@/components/client/SectionAnchor";
+import { BigNumber, CompareRow } from "@/components/client/BigNumber";
 import {
   ProjectionTable,
   StepList,
-} from "@/components/ProjectionTable";
+} from "@/components/client/ProjectionTable";
+
+export const metadata: Metadata = {
+  title: "Strategic Allocation Plan",
+  description:
+    "A sample deliverable. An engineered conversion plan, illustrated through one real household.",
+};
 
 export default function PlanPage() {
   return (

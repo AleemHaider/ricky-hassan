@@ -1,14 +1,21 @@
-import { Sidebar } from "@/components/Sidebar";
-import { TopBar } from "@/components/TopBar";
-import { SectionHead } from "@/components/SectionHead";
+import type { Metadata } from "next";
+import { Sidebar } from "@/components/internal/Sidebar";
+import { TopBar } from "@/components/internal/TopBar";
+import { SectionHead } from "@/components/internal/SectionHead";
 import {
   SayThis,
   SayThisGrid,
   SayThisCard,
-} from "@/components/SayThis";
-import { WhyItWorks, NoteList } from "@/components/WhyItWorks";
-import { DataTable, StepsTable } from "@/components/DataTable";
-import { PullQuote, StatBlock } from "@/components/Aside";
+} from "@/components/internal/SayThis";
+import { WhyItWorks, NoteList } from "@/components/internal/WhyItWorks";
+import { DataTable, StepsTable } from "@/components/internal/DataTable";
+import { PullQuote, StatBlock } from "@/components/internal/Aside";
+
+export const metadata: Metadata = {
+  title: "Field Manual",
+  description:
+    "Internal · Cold Prospect Conversion Playbook. Confidential. Distribution restricted.",
+};
 
 export default function PlaybookPage() {
   return (

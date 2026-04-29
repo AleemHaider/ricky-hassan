@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Wordmark } from "./Wordmark";
+import { Wordmark } from "@/components/Wordmark";
 
 export function TopBar() {
   const [progress, setProgress] = useState(0);

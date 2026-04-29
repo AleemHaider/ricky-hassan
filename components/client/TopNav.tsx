@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { planSections } from "@/lib/plan";
-import { Wordmark } from "./Wordmark";
+import { Wordmark } from "@/components/Wordmark";
 
 export function TopNav() {
   const [active, setActive] = useState<string>(planSections[0].id);
